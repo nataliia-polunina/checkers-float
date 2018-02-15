@@ -1,0 +1,89 @@
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/images.jpg);
+}
+
+.desk {
+	height: 430px;
+	width: 430px;
+	background-color: #f4c69e;
+}
+
+.board {
+	height: 410px;
+	width: 410px;
+	border: 5px solid #1e0604; 
+	background-color: #f4c69e;
+	background-image: linear-gradient( 45deg, #1e0604 25%, transparent 25%, transparent 74%, #1e0604 75%, #1e0604), 
+	linear-gradient( 45deg, #1e0604 25%, transparent 25%, transparent 74%, #1e0604 75%, #1e0604);
+	background-size:100px 100px;
+	background-position: 0 0, 50px 50px;
+}
+
+.checker {
+	height: 46px;
+	width: 46px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.checker::after {
+	content: '';
+	width: 75%;
+	height: 75%;
+	border:  1px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checker__dark {
+	float: left;
+	background-color: #a64717;
+}
+
+.line1 {	
+	margin-left: 13.3%;	
+}
+
+.line2 {
+	margin-left: 0.3%;
+	margin-right: 13.2%;
+	margin-top: 1.5%;
+}
+
+.line3 {
+	margin-left: 13.3%;
+	margin-top: 0.7%;
+}
+
+
+.checker__light {
+	float:  left;
+	background-color: #fcf9f7;
+}
+
+.line4 {
+	margin-left: 0.3%;
+	margin-right: 13.2%;
+	margin-top: 26%;
+}
+
+.line5 {
+	margin-left: 13.3%;
+	margin-top: 1%;
+}
+
+.line6 {
+	margin-left: 0.3%;
+	margin-right: 13.2%;
+	margin-top: 1.5%;
+}
+
+
+
